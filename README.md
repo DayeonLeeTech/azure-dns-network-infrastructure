@@ -56,3 +56,12 @@ The final phase implemented Canonical Name (CNAME) records to create aliases for
 </p>
 
 ---
+
+## Project Outcome & Key Takeaways
+The lab successfully validated the configuration and management of naming services within an Active Directory environment. By manually manipulating A-Records and CNAME aliases, the project demonstrated how DNS serves as the critical backbone for resource discovery and traffic routing in an enterprise network.
+
+### Key Takeaways
+* **Authoritative Control:** Gained hands-on experience creating and modifying records within the DNS Manager (MMC) to control how hostnames resolve across a domain.
+* **Troubleshooting Efficiency:** Mastered the use of the DNS flush command (`ipconfig /flushdns`) to resolve "stale" data issues, a common hurdle in network administration and support.
+* **Alias Management:** Successfully implemented CNAME records to bridge internal hostnames with external web services, demonstrating a professional approach to streamlining user access to external resources.
+* **Network Visibility:** Utilized industry-standard utilities like `nslookup` to analyze the DNS resolution chain, providing deep visibility into how clients communicate with authoritative servers.
