@@ -60,6 +60,10 @@ The final phase implemented Canonical Name (CNAME) records to create aliases for
 ## Project Outcome & Key Takeaways
 The lab successfully validated the configuration and management of naming services within an Active Directory environment. By manually manipulating A-Records and CNAME aliases, the project demonstrated how DNS serves as the critical backbone for resource discovery and traffic routing in an enterprise network.
 
+### Core Technical Competencies
+* **DNS Infrastructure Management:** Provisioning and modifying authoritative records (A and CNAME) to manage domain resources.
+* **Network Troubleshooting:** Diagnosing resolution failures and verifying traffic routing using `nslookup` and `ping`.
+
 ### Key Takeaways
 * **Authoritative Control:** Gained hands-on experience creating and modifying records within the DNS Manager (MMC) to control how hostnames resolve across a domain.
 * **Troubleshooting Efficiency:** Mastered the use of the DNS flush command (`ipconfig /flushdns`) to resolve "stale" data issues, a common hurdle in network administration and support.
