@@ -34,7 +34,7 @@ The first phase involved establishing a manual Host (A) record within the Domain
 ---
 
 ## Part 2: DNS Cache Dynamics & Troubleshooting
-This section focused on the behavior of the local resolver cache and how "stale" data can cause connectivity issues even after a DNS record is updated.
+This section focuses on the behaviour of the local resolver cache and how "stale" data can cause connectivity issues even after a DNS record is updated.
 * **Simulated Propagation Delay:** Modified the "mainframe" record on DC-1 to point to a different IP (8.8.8.8). Observations showed the client still pinged the old address due to the local cache.
 * **Cache Inspection:** Utilized `ipconfig /displaydns` to view the active TTL (Time to Live) and existing entries stored locally on the workstation.
 * **Forced Invalidation:** Performed an `ipconfig /flushdns` to clear the resolver cache. This forced the client to request the updated record from the DNS server, resolving the addressing mismatch.
