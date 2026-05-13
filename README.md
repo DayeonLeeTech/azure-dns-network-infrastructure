@@ -28,7 +28,7 @@ The first phase involved establishing a manual Host (A) record within the Domain
 * **Resolution Verification:** Confirmed successful resolution on the client side via `ping`. This verified that the workstation was correctly querying DC-1 for internal name resolution.
 
 <p align="center">
-  <img src="assets/client-a-record-before-and-after-comparison.png" width="800" alt="A-Record Verification" />
+  <img src="assets/client-a-record-before-after-comparison.png" width="800" alt="A-Record Verification" />
 </p>
 
 ---
