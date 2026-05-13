@@ -52,7 +52,7 @@ The final phase implemented Canonical Name (CNAME) records to create aliases for
 * **Infrastructure Validation:** Verified that the DNS server correctly handles alias requests, providing a seamless redirection for domain users.
 
 <p align="center">
-  <img src="assets/client-cname-alias-verifcation.png" width="800" alt="CNAME Verification" />
+  <img src="assets/client-cname-alias-verification.png" width="800" alt="CNAME Verification" />
 </p>
 
 ---
